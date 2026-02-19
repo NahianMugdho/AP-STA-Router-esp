@@ -12,7 +12,7 @@
 // Requires CONFIG_LWIP_IP_FORWARD=y + CONFIG_LWIP_IPV4_NAPT=y (sdkconfig.defaults)
 #include <string.h>
 #include <stdio.h>
-
+#include "led_config.h" 
 static const char *TAG = "WIFI_MANAGER";
 
 static EventGroupHandle_t wifi_event_group;
@@ -165,14 +165,16 @@ static void wifi_event_handler(void *arg, esp_event_base_t base,
 {
     if (base == WIFI_EVENT && event_id == WIFI_EVENT_STA_START) {
         esp_wifi_connect();
-
+        led_blink_start(); 
     } else if (base == WIFI_EVENT && event_id == WIFI_EVENT_STA_DISCONNECTED) {
         if (retry_count < MAX_RETRY) {
             esp_wifi_connect();
             retry_count++;
+            led_blink_start(); // ← retry তেও blink চলতে থাকে
             ESP_LOGI(TAG, "Retry %d/%d ...", retry_count, MAX_RETRY);
         } else {
             xEventGroupSetBits(wifi_event_group, WIFI_FAIL_BIT);
+            led_blink_start();
             ESP_LOGE(TAG, "STA: failed to connect.");
         }
 
@@ -181,7 +183,8 @@ static void wifi_event_handler(void *arg, esp_event_base_t base,
         ESP_LOGI(TAG, "STA IP: " IPSTR, IP2STR(&ev->ip_info.ip));
         retry_count = 0;
         xEventGroupSetBits(wifi_event_group, WIFI_CONNECTED_BIT);
-
+         led_blink_stop();  // ← কানেক্টেড! blink বন্ধ
+        led_on();          // ← steady ON
         // ── NAPT Enable ───────────────────────────────────────────────────
         // ap_netif এ NAPT enable করলে ESP_Network এর সব client ইন্টারনেট পাবে
         if (ap_netif) {

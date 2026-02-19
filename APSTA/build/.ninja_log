@@ -2448,3 +2448,43 @@
 98217	98536	7931709235542495	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/.bin_timestamp	11e7bbe470812a32
 98537	98635	7931709235644968	esp-idf/esptool_py/CMakeFiles/app_check_size	6860c8d4d920e82
 98537	98635	7931709235644968	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6860c8d4d920e82
+199	359	7931731887572780	esp-idf/esptool_py/CMakeFiles/app_check_size	6860c8d4d920e82
+199	359	7931731887572780	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6860c8d4d920e82
+186	456	7931731887448202	bootloader-prefix/src/bootloader-stamp/bootloader-build	2430e0d78af6f014
+186	456	7931731887448202	bootloader/bootloader.elf	2430e0d78af6f014
+186	456	7931731887448202	bootloader/bootloader.bin	2430e0d78af6f014
+186	456	7931731887448202	bootloader/bootloader.map	2430e0d78af6f014
+186	456	7931731887448202	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	2430e0d78af6f014
+186	456	7931731887448202	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader/bootloader.elf	2430e0d78af6f014
+186	456	7931731887448202	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader/bootloader.bin	2430e0d78af6f014
+186	456	7931731887448202	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader/bootloader.map	2430e0d78af6f014
+456	496	7931731890146371	bootloader-prefix/src/bootloader-stamp/bootloader-install	83eea75ec33757d1
+456	496	7931731890146371	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	83eea75ec33757d1
+496	574	7931731891220063	CMakeFiles/bootloader-complete	65ed93fdf4933caf
+496	574	7931731891220063	bootloader-prefix/src/bootloader-stamp/bootloader-done	65ed93fdf4933caf
+496	574	7931731891220063	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/CMakeFiles/bootloader-complete	65ed93fdf4933caf
+496	574	7931731891220063	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	65ed93fdf4933caf
+170	368	7931737361836468	bootloader-prefix/src/bootloader-stamp/bootloader-build	2430e0d78af6f014
+170	368	7931737361836468	bootloader/bootloader.elf	2430e0d78af6f014
+170	368	7931737361836468	bootloader/bootloader.bin	2430e0d78af6f014
+170	368	7931737361836468	bootloader/bootloader.map	2430e0d78af6f014
+170	368	7931737361836468	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	2430e0d78af6f014
+170	368	7931737361836468	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader/bootloader.elf	2430e0d78af6f014
+170	368	7931737361836468	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader/bootloader.bin	2430e0d78af6f014
+170	368	7931737361836468	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader/bootloader.map	2430e0d78af6f014
+369	420	7931737363774393	bootloader-prefix/src/bootloader-stamp/bootloader-install	83eea75ec33757d1
+369	420	7931737363774393	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	83eea75ec33757d1
+421	534	7931737365392919	CMakeFiles/bootloader-complete	65ed93fdf4933caf
+421	534	7931737365392919	bootloader-prefix/src/bootloader-stamp/bootloader-done	65ed93fdf4933caf
+421	534	7931737365392919	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/CMakeFiles/bootloader-complete	65ed93fdf4933caf
+421	534	7931737365392919	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	65ed93fdf4933caf
+159	950	7931737361727587	esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj	c5d2e630408ff886
+145	984	7931737361585886	esp-idf/main/CMakeFiles/__idf_main.dir/wifi_manager.c.obj	3f340755971dfe25
+985	1868	7931737369981274	esp-idf/main/libmain.a	970f5f148a3609f5
+1868	22917	7931737588830617	esp-idf/esp_system/ld/sections.ld	35037446466c71b3
+1868	22917	7931737588830617	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/esp-idf/esp_system/ld/sections.ld	35037446466c71b3
+22917	27540	7931737589302132	practise-test2.elf	f94370f17310809a
+27540	27895	7931737639009886	.bin_timestamp	11e7bbe470812a32
+27540	27895	7931737639009886	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/.bin_timestamp	11e7bbe470812a32
+27895	28001	7931737639080949	esp-idf/esptool_py/CMakeFiles/app_check_size	6860c8d4d920e82
+27895	28001	7931737639080949	D:/mugdho/japan office - V2/AP+STA IDF/APSTA/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6860c8d4d920e82

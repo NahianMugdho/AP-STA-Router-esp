@@ -4,13 +4,14 @@
 
 #include "wifi_manager.h"
 #include "factory_reset.h"
-
+#include "led_config.h"
 static const char *TAG = "APP_MAIN";
 
 void app_main(void)
 {
     ESP_LOGI(TAG, "=== Sake IoT Booting ===");
-
+  led_init();          // ← এটা add করো
+    led_blink_start();   // ← boot এ blink শুরু
     // Step 1: NVS + netif + event loop
     ESP_ERROR_CHECK(wifi_manager_init());
 
